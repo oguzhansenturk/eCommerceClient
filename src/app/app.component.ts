@@ -10,3 +10,7 @@ export class AppComponent {
   constructor(){
   }  
 }
+
+$.get("https://localhost:7160/api/product",data=>{
+  console.log(data);
+})
