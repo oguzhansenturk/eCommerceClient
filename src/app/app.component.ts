@@ -8,9 +8,5 @@ declare var $: any;
 export class AppComponent {
   title = 'Client';
   constructor(){
-  }  
+  }
 }
-
-$.get("https://localhost:7160/api/product",data=>{
-  console.log(data);
-})

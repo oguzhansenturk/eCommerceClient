@@ -12,7 +12,6 @@ import { DashboardModule } from './dashboard/dashboard.module';
   declarations: [],
   imports: [
     CommonModule,
-    ProductsModule,
     OrderModule,
     CustomerModule,
     DashboardModule
